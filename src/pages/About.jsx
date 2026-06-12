@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import CountUp from '../components/CountUp'
 import './About.css'
 
 const stats = [
@@ -63,7 +64,7 @@ function About() {
           <div className="stats-grid">
             {stats.map((stat, index) => (
               <div key={stat.label} className="stat-card animate-scale-in" style={{ animationDelay: `${index * 0.1}s` }}>
-                <span className="stat-number">{stat.number}</span>
+                <span className="stat-number"><CountUp target={stat.number} /></span>
                 <span className="stat-label">{stat.label}</span>
               </div>
             ))}
