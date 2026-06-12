@@ -74,16 +74,16 @@ function About() {
       <section className="about-vision">
         <div className="container">
           <div className="vision-content">
-            <span className="section-tag">Our Vision</span>
-            <h2 className="section-title">A New Era of African Cinema</h2>
-            <p className="vision-text">
+            <span className="section-tag animate-fade-in">Our Vision</span>
+            <h2 className="section-title animate-fade-in stagger-1">A New Era of African Cinema</h2>
+            <p className="vision-text animate-fade-in stagger-2">
               We envision a vibrant film industry where young African talents lead the global 
               stage — telling our stories, our way. DSAMMY is committed to building the 
               infrastructure, training the talent, and producing the content that will define 
               the next generation of cinema.
             </p>
             <div className="vision-values">
-              <div className="value-item">
+              <div className="value-item animate-fade-up stagger-1">
                 <div className="value-icon">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
@@ -92,7 +92,7 @@ function About() {
                 <h4>Creativity</h4>
                 <p>Unleashing unlimited creative potential</p>
               </div>
-              <div className="value-item">
+              <div className="value-item animate-fade-up stagger-2">
                 <div className="value-icon">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
@@ -101,7 +101,7 @@ function About() {
                 <h4>Excellence</h4>
                 <p>Pursuing the highest standards in every craft</p>
               </div>
-              <div className="value-item">
+              <div className="value-item animate-fade-up stagger-3">
                 <div className="value-icon">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/>
@@ -110,7 +110,7 @@ function About() {
                 <h4>Community</h4>
                 <p>Building a family of passionate creators</p>
               </div>
-              <div className="value-item">
+              <div className="value-item animate-fade-up stagger-4">
                 <div className="value-icon">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>

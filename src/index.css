@@ -27,6 +27,24 @@
   --shadow-gold: 0 4px 30px rgba(201, 168, 76, 0.15);
 }
 
+[data-theme="light"] {
+  --primary: #ffffff;
+  --secondary: #f5f5f5;
+  --accent: #c9a84c;
+  --accent-light: #d4b85a;
+  --accent-dark: #a88a2e;
+  --text: #1a1a1a;
+  --text-muted: #666666;
+  --text-light: #333333;
+  --dark-gray: #f0f0f0;
+  --mid-gray: #e0e0e0;
+  --light-gray: #cccccc;
+  --gradient-gold: linear-gradient(135deg, #c9a84c, #dfc66a, #c9a84c);
+  --gradient-dark: linear-gradient(180deg, #f5f5f5 0%, #e8e8e8 100%);
+  --shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  --shadow-gold: 0 4px 30px rgba(201, 168, 76, 0.25);
+}
+
 html {
   scroll-behavior: smooth;
   font-size: 16px;
@@ -133,6 +151,7 @@ section {
   transition: var(--transition);
   position: relative;
   overflow: hidden;
+  border-radius: 50px;
 }
 
 .btn-primary {
