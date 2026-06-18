@@ -12,19 +12,14 @@
   position: absolute;
   inset: 0;
   background: url('/images/DSAMMY GLOBAL.jpeg') center center / cover no-repeat;
-  filter: brightness(0.3) saturate(1.2);
+  filter: brightness(var(--hero-img-brightness)) saturate(1.2);
   transform: scale(1.1);
 }
 
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    180deg,
-    rgba(10, 10, 10, 0.3) 0%,
-    rgba(10, 10, 10, 0.6) 50%,
-    rgba(10, 10, 10, 0.95) 100%
-  );
+  background: var(--hero-overlay);
 }
 
 .hero-particles {
@@ -133,7 +128,7 @@
   border-radius: 16px;
   overflow: hidden;
   background: var(--dark-gray);
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-light);
   transition: var(--transition);
   display: block;
 }
@@ -141,7 +136,7 @@
 .category-card:hover {
   transform: translateY(-8px);
   border-color: rgba(201, 168, 76, 0.2);
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+  box-shadow: var(--shadow-float);
 }
 
 .category-card-image {
@@ -164,7 +159,7 @@
 .category-card-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, transparent 0%, rgba(10, 10, 10, 0.8) 100%);
+  background: var(--card-overlay);
 }
 
 .category-card-content {

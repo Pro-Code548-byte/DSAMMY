@@ -22,7 +22,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: brightness(0.35) saturate(1.3);
+  filter: brightness(var(--category-img-brightness)) saturate(1.3);
   transform: scale(1.05);
   transition: transform 8s ease;
 }
@@ -34,12 +34,7 @@
 .category-hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    180deg,
-    rgba(10, 10, 10, 0.3) 0%,
-    rgba(10, 10, 10, 0.7) 50%,
-    rgba(10, 10, 10, 0.95) 100%
-  );
+  background: var(--hero-overlay);
 }
 
 .category-hero-content {
@@ -97,7 +92,7 @@
 .service-card {
   padding: 2.5rem;
   background: var(--dark-gray);
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-light);
   border-radius: 16px;
   transition: var(--transition);
   position: relative;
@@ -123,7 +118,7 @@
 .service-card:hover {
   border-color: rgba(201, 168, 76, 0.15);
   transform: translateY(-4px);
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  box-shadow: var(--shadow-float);
 }
 
 .service-number {

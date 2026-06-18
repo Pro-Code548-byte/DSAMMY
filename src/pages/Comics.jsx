@@ -58,7 +58,7 @@ function Comics() {
           <div className="category-cta-content">
             <h2>Draw Your Dreams</h2>
             <p>Join DSAMMY Comics and create worlds without limits.</p>
-            <a href="https://wa.me/2349013989363" target="_blank" rel="noopener noreferrer" className="btn btn-whatsapp">
+            <a href="https://chat.whatsapp.com/JNDzJjLmr93CkXrqddtaUY?s=cl&p=a&mlu=2" target="_blank" rel="noopener noreferrer" className="btn btn-whatsapp">
               Join Comics Division
             </a>
           </div>

@@ -58,7 +58,7 @@ function Tech() {
           <div className="category-cta-content">
             <h2>Innovate With Us</h2>
             <p>Join DSAMMY Tech and shape the future of film technology.</p>
-            <a href="https://wa.me/2349013989363" target="_blank" rel="noopener noreferrer" className="btn btn-whatsapp">
+            <a href="https://chat.whatsapp.com/JNDzJjLmr93CkXrqddtaUY?s=cl&p=a&mlu=2" target="_blank" rel="noopener noreferrer" className="btn btn-whatsapp">
               Join Tech Division
             </a>
           </div>

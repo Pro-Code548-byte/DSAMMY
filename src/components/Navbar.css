@@ -9,7 +9,7 @@
 }
 
 .navbar-scrolled {
-  background: rgba(10, 10, 10, 0.95);
+  background: var(--overlay-strong);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   padding: 0.75rem 0;
@@ -143,8 +143,8 @@
   justify-content: center;
   width: 36px;
   height: 36px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: var(--border-light);
+  border: 1px solid var(--border-med);
   border-radius: 50%;
   cursor: pointer;
   color: var(--accent);
@@ -155,11 +155,6 @@
   background: rgba(201, 168, 76, 0.15);
   border-color: var(--accent);
   transform: rotate(15deg);
-}
-
-[data-theme="light"] .theme-toggle {
-  background: rgba(0, 0, 0, 0.05);
-  border-color: rgba(0, 0, 0, 0.1);
 }
 
 .hamburger {
@@ -219,7 +214,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.7);
+    background: var(--overlay);
     opacity: 0;
     visibility: hidden;
     transition: var(--transition);
@@ -240,7 +235,7 @@
     justify-content: flex-start;
     padding: 6rem 2rem 2rem;
     background: var(--secondary);
-    border-left: 1px solid rgba(201, 168, 76, 0.1);
+    border-left: 1px solid var(--border-med);
     transition: var(--transition);
     gap: 1.5rem;
     align-items: stretch;
@@ -260,7 +255,7 @@
     display: block;
     padding: 0.75rem 1rem;
     font-size: 0.9rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid var(--border-light);
   }
 
   .nav-link-indicator {

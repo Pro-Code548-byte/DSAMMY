@@ -17,13 +17,13 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: brightness(0.3) saturate(1.2);
+  filter: brightness(var(--page-img-brightness)) saturate(1.2);
 }
 
 .page-hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(10,10,10,0.4) 0%, rgba(10,10,10,0.9) 100%);
+  background: var(--page-hero-overlay);
   z-index: 1;
 }
 
@@ -109,7 +109,7 @@
 .stat-card {
   text-align: center;
   padding: 2rem;
-  border: 1px solid rgba(255,255,255,0.05);
+  border: 1px solid var(--border-light);
   border-radius: 12px;
   transition: var(--transition);
 }
@@ -166,7 +166,7 @@
 .value-item {
   padding: 2rem;
   background: var(--dark-gray);
-  border: 1px solid rgba(255,255,255,0.05);
+  border: 1px solid var(--border-light);
   border-radius: 12px;
   transition: var(--transition);
 }

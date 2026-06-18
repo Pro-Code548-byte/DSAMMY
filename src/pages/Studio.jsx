@@ -57,7 +57,7 @@ function Studio() {
           <div className="category-cta-content">
             <h2>Frame Your Vision</h2>
             <p>Work with DSAMMY Studio for your next visual project.</p>
-            <a href="https://wa.me/2349013989363" target="_blank" rel="noopener noreferrer" className="btn btn-whatsapp">
+            <a href="https://chat.whatsapp.com/JNDzJjLmr93CkXrqddtaUY?s=cl&p=a&mlu=2" target="_blank" rel="noopener noreferrer" className="btn btn-whatsapp">
               Join Studio Division
             </a>
           </div>

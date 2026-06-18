@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import './Category.css'
 
 const services = [
@@ -60,7 +59,7 @@ function Writes() {
           <div className="category-cta-content">
             <h2>Have a Story to Tell?</h2>
             <p>Join DSAMMY Writes and let&apos;s bring your vision to the page.</p>
-            <a href="https://wa.me/2349013989363" target="_blank" rel="noopener noreferrer" className="btn btn-whatsapp">
+            <a href="https://chat.whatsapp.com/JNDzJjLmr93CkXrqddtaUY?s=cl&p=a&mlu=2" target="_blank" rel="noopener noreferrer" className="btn btn-whatsapp">
               Join Writes Division
             </a>
           </div>

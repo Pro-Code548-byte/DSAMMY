@@ -16,7 +16,10 @@ const navLinks = [
 function Navbar() {
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
-  const [darkTheme, setDarkTheme] = useState(true)
+  const [darkTheme, setDarkTheme] = useState(() => {
+    const saved = localStorage.getItem('dsammy-theme')
+    return saved ? saved === 'dark' : true
+  })
   const location = useLocation()
 
   useEffect(() => {
@@ -32,7 +35,9 @@ function Navbar() {
   }, [location])
 
   useEffect(() => {
-    document.documentElement.setAttribute('data-theme', darkTheme ? 'dark' : 'light')
+    const theme = darkTheme ? 'dark' : 'light'
+    document.documentElement.setAttribute('data-theme', theme)
+    localStorage.setItem('dsammy-theme', theme)
   }, [darkTheme])
 
   const toggleTheme = () => setDarkTheme((prev) => !prev)
@@ -78,7 +83,7 @@ function Navbar() {
             )}
           </button>
           <a
-            href="https://wa.me/2349013989363"
+            href="https://chat.whatsapp.com/JNDzJjLmr93CkXrqddtaUY?s=cl&p=a&mlu=2"
             target="_blank"
             rel="noopener noreferrer"
             className="nav-whatsapp-btn"
