@@ -224,3 +224,26 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 480px) {
+  .page-hero {
+    min-height: 400px;
+    height: 60vh;
+  }
+
+  .page-hero-title {
+    font-size: clamp(1.8rem, 7vw, 2.5rem);
+  }
+
+  .page-hero-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .stat-number {
+    font-size: 2rem;
+  }
+
+  .value-item {
+    padding: 1.5rem;
+  }
+}

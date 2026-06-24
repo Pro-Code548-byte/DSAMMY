@@ -154,3 +154,21 @@
     text-align: center;
   }
 }
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 3rem 0 0;
+  }
+
+  .footer-decoration span {
+    width: 40px;
+  }
+
+  .footer-decoration span:nth-child(2) {
+    width: 80px;
+  }
+
+  .footer-logo-text {
+    font-size: 1.25rem;
+  }
+}

@@ -188,3 +188,28 @@
     padding: 1.75rem;
   }
 }
+
+@media (max-width: 480px) {
+  .category-hero {
+    min-height: 400px;
+    height: 60vh;
+  }
+
+  .category-hero-title {
+    font-size: clamp(1.8rem, 7vw, 2.5rem);
+    letter-spacing: 2px;
+  }
+
+  .category-hero-subtitle {
+    font-size: 0.85rem;
+    letter-spacing: 2px;
+  }
+
+  .service-card {
+    padding: 1.5rem;
+  }
+
+  .service-title {
+    font-size: 1.1rem;
+  }
+}

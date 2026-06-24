@@ -265,3 +265,35 @@
     flex-direction: column;
   }
 }
+
+@media (max-width: 480px) {
+  .hero-tag {
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    padding: 0.4rem 1rem;
+  }
+
+  .hero-title {
+    font-size: clamp(1.8rem, 8vw, 2.5rem);
+  }
+
+  .hero-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .categories-grid {
+    gap: 1.25rem;
+  }
+
+  .category-card-image {
+    height: 180px;
+  }
+
+  .category-card-content {
+    padding: 1.25rem;
+  }
+
+  .category-card-title {
+    font-size: 1.2rem;
+  }
+}

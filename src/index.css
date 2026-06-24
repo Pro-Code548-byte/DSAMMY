@@ -243,3 +243,28 @@ section {
     width: 20px;
   }
 }
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  .section-tag {
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+  }
+
+  .section-tag::before,
+  .section-tag::after {
+    width: 12px;
+    margin: 0 0.5rem;
+  }
+
+  .section-title {
+    font-size: clamp(1.5rem, 7vw, 2.2rem);
+  }
+
+  .section-subtitle {
+    font-size: 0.95rem;
+  }
+}

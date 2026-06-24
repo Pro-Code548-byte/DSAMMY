@@ -157,3 +157,15 @@
     gap: 0;
   }
 }
+
+@media (max-width: 480px) {
+  .contact-form {
+    padding: 1.5rem;
+  }
+
+  .contact-detail-icon {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+  }
+}

@@ -105,10 +105,6 @@
   width: 60%;
 }
 
-.navbar-menu .theme-toggle {
-  display: none;
-}
-
 .nav-whatsapp-btn {
   display: inline-flex;
   align-items: center;
@@ -194,15 +190,6 @@
 }
 
 @media (max-width: 968px) {
-  .navbar-menu .theme-toggle {
-    display: flex;
-    margin-bottom: 0.5rem;
-  }
-
-  .navbar-actions .theme-toggle {
-    display: none;
-  }
-
   .hamburger {
     display: flex;
   }
@@ -265,5 +252,34 @@
   .nav-whatsapp-btn {
     justify-content: center;
     margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-text {
+    font-size: 1.35rem;
+  }
+
+  .theme-toggle {
+    width: 32px;
+    height: 32px;
+  }
+
+  .theme-toggle svg {
+    width: 15px;
+    height: 15px;
+  }
+
+  .hamburger {
+    width: 32px;
+    height: 32px;
+  }
+
+  .hamburger span {
+    width: 20px;
+  }
+
+  .navbar-actions {
+    gap: 0.5rem;
   }
 }
