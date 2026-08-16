@@ -5,6 +5,7 @@
 /* Category Hero */
 .category-hero {
   height: 70vh;
+  height: 70svh;
   min-height: 500px;
   display: flex;
   align-items: center;
@@ -187,6 +188,14 @@
   .service-card {
     padding: 1.75rem;
   }
+
+  .category-detail {
+    padding: 5rem 0;
+  }
+
+  .category-intro {
+    margin-bottom: 3rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -211,5 +220,13 @@
 
   .service-title {
     font-size: 1.1rem;
+  }
+
+  .category-detail {
+    padding: 4rem 0;
+  }
+
+  .category-cta {
+    padding: 4rem 0;
   }
 }

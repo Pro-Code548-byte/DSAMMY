@@ -216,7 +216,7 @@
     position: fixed;
     top: 0;
     right: -300px;
-    width: 300px;
+    width: min(300px, 85vw);
     height: 100vh;
     flex-direction: column;
     justify-content: flex-start;
@@ -258,6 +258,15 @@
 @media (max-width: 480px) {
   .logo-text {
     font-size: 1.35rem;
+  }
+
+  .navbar-menu {
+    width: 100%;
+    right: -100%;
+  }
+
+  .navbar-menu.active {
+    right: 0;
   }
 
   .theme-toggle {

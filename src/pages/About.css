@@ -1,5 +1,6 @@
 .page-hero {
   height: 70vh;
+  height: 70svh;
   min-height: 500px;
   display: flex;
   align-items: center;
@@ -223,6 +224,23 @@
   .vision-values {
     grid-template-columns: 1fr;
   }
+
+  .about-mission,
+  .about-vision {
+    padding: 5rem 0;
+  }
+
+  .stats-section {
+    padding: 3rem 0;
+  }
+
+  .mission-grid {
+    gap: 2.5rem;
+  }
+
+  .vision-text {
+    margin-bottom: 2.5rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -245,5 +263,25 @@
 
   .value-item {
     padding: 1.5rem;
+  }
+
+  .stat-card {
+    padding: 1.5rem;
+  }
+
+  .about-mission,
+  .about-vision {
+    padding: 4rem 0;
+  }
+
+  .stats-section {
+    padding: 2.5rem 0;
+  }
+
+  .mission-image-border {
+    top: -10px;
+    left: -10px;
+    right: 10px;
+    bottom: 10px;
   }
 }

@@ -242,6 +242,16 @@ section {
   .section-tag::after {
     width: 20px;
   }
+
+  .section-header {
+    margin-bottom: 3rem;
+  }
+
+  .btn {
+    padding: 0.9rem 1.75rem;
+    font-size: 0.8rem;
+    letter-spacing: 1.5px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -266,5 +276,19 @@ section {
 
   .section-subtitle {
     font-size: 0.95rem;
+  }
+
+  .section-header {
+    margin-bottom: 2.25rem;
+  }
+
+  .btn {
+    padding: 0.85rem 1.4rem;
+    font-size: 0.72rem;
+    letter-spacing: 1px;
+    max-width: 100%;
+    text-align: center;
+    white-space: normal;
+    justify-content: center;
   }
 }
